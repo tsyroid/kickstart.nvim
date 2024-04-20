@@ -1,5 +1,7 @@
+-- lua/plugins/nvim-lspconfig.lua
+
 return {
-    { -- LSP Configuration & Plugins
+  { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
     dependencies = {
       -- Automatically install LSPs and related tools to stdpath for Neovim

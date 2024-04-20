@@ -1,3 +1,5 @@
+-- lua/plugins/nvim-cmp.lua
+
 return {
   { -- Autocompletion
     'hrsh7th/nvim-cmp',

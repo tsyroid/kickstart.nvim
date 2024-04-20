@@ -1,3 +1,5 @@
+-- lua/plugins/conform.lua
+
 return {
   { -- Autoformat
     'stevearc/conform.nvim',
