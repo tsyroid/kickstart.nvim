@@ -14,7 +14,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require('lazy').setup({ { import = 'plugins' }, {} }, {
+require('lazy').setup({ { import = 'plugins' }, { import = 'custom.plugins' } }, {
   checker = {
     enabled = true,
     notify = false,
@@ -23,3 +23,7 @@ require('lazy').setup({ { import = 'plugins' }, {} }, {
     notify = false,
   },
 })
+
+--  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
+--    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
+-- { import = 'custom.plugins' },
